@@ -222,7 +222,7 @@ namespace RentalBot
             if (WalletPWD == "")
             {
                 Console.WriteLine("No WalletPWD set, using default");
-                WalletPWD = "***REMOVED***";
+                WalletPWD = "Password1";
             }
 
             if (PostKey == "")
